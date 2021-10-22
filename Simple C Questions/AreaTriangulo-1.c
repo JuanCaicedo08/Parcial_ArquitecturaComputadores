@@ -3,14 +3,12 @@
 int main(){ 
 
     float b, h, area;  
-    printf("Digite base del triangulo\n-> ");
-    scanf("&f",b);
 
-    printf("Digite altura del triangulo\n-> ");
-    scanf("&f",h); 
+    printf("Digite base y altura del triangulo\n-> ");
+    scanf("%f %f",&b,&h);
 
     area = (b*h) / 2 ;  
 
-    printf("\n\nEl Area del triangulo es : %f",area);  
+    printf("\nEl Area del triangulo es : %f \n\n",area);  
     return (0);  
 }  

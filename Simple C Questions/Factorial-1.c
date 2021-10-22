@@ -15,7 +15,7 @@ int main() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf("El factorial de %d = %llu", n, fact);
+        printf("El factorial de %d = %llu\n", n, fact);
     }
 
     return 0;
