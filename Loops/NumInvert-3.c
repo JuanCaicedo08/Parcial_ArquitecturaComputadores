@@ -15,7 +15,7 @@ int main(){
 
    }
 
-   printf("\nNumero Invertido : %d", rev);
+   printf("\nNumero Invertido : %d\n", rev);
    
    return (0);
 }

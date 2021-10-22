@@ -13,7 +13,7 @@ int main(){
        ++count;
    }
    
-   printf("\nEl numero de digitos es = %d",count);
+   printf("\nEl numero de digitos es = %d \n",count);
    
    return 0;
 }

@@ -4,7 +4,7 @@ int main(){
 
    int count, n, t1=0, t2=1, Temp=0;
   
-   printf("Digite el tamao que quiere ver de la serie de Fibonacci :\n");
+   printf("Digite el tamaño que quiere ver de la serie de Fibonacci :\n");
    scanf("%d",&n);
   
    printf("\nSerie Fibonacci: %d , %d , ", t1, t2);
@@ -18,6 +18,6 @@ int main(){
        printf("%d , ",Temp);
 
    }
-
+  printf("\n");
   return 0;
 }
